@@ -1,0 +1,24 @@
+Encrypted Text: 128836cf533d9c89e5253f248e4cb45e
+
+ Performance counter stats for './aes':
+
+              0.60 msec task-clock                       #    0.557 CPUs utilized             
+                 0      context-switches                 #    0.000 /sec                      
+                 0      cpu-migrations                   #    0.000 /sec                      
+                64      page-faults                      #  105.810 K/sec                     
+         2,320,411      cycles                           #    3.836 GHz                       
+            13,390      stalled-cycles-frontend          #    0.58% frontend cycles idle      
+             1,683      stalled-cycles-backend           #    0.07% backend cycles idle       
+         1,578,470      instructions                     #    0.68  insn per cycle            
+                                                  #    0.01  stalled cycles per insn   
+           340,212      branches                         #  562.469 M/sec                     
+     <not counted>      branch-misses                                                           (0.00%)
+
+       0.001085074 seconds time elapsed
+
+       0.001137000 seconds user
+       0.000000000 seconds sys
+
+## TG NOTES ##
+Standard gcc flags
+128 bits encripted (128-Bit AES)

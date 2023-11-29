@@ -1,0 +1,24 @@
+Encrypted Text: 3f6fefc4bfe9c593735ba1f279029e0e
+
+ Performance counter stats for './fast_aes':
+
+              0.45 msec task-clock                       #    0.474 CPUs utilized             
+                 0      context-switches                 #    0.000 /sec                      
+                 0      cpu-migrations                   #    0.000 /sec                      
+                61      page-faults                      #  136.655 K/sec                     
+         1,874,351      cycles                           #    4.199 GHz                       
+            11,755      stalled-cycles-frontend          #    0.63% frontend cycles idle      
+             6,684      stalled-cycles-backend           #    0.36% backend cycles idle       
+         1,332,036      instructions                     #    0.71  insn per cycle            
+                                                  #    0.01  stalled cycles per insn   
+           288,829      branches                         #  647.050 M/sec                     
+     <not counted>      branch-misses                                                           (0.00%)
+
+       0.000942590 seconds time elapsed
+
+       0.000995000 seconds user
+       0.000000000 seconds sys
+
+## TG NOTES ##
+-O3 optimized gcc flag
+128 bits encripted (128-Bit AES)
